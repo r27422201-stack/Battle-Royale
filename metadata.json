@@ -1,0 +1,6 @@
+{
+  "name": "Apex Survivor: Battle Royale",
+  "description": "High-fidelity Battle Royale experience with dynamic matchmaking, skill-based gameplay, and competitive progression optimized for performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

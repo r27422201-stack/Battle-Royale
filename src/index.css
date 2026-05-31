@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=JetBrains+Mono:wght@700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-primary: #ff5500; /* Neon Orange */
+  --color-gold: #fbbf24;
+}
+
+body {
+  background-color: #050505;
+  color: white;
+  margin: 0;
+  overscroll-behavior: none;
+  user-select: none;
+  touch-action: none;
+}
+
+/* Hide scrollbars for an immersive game UI */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
